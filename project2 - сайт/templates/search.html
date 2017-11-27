@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск</title>
+</head>
+<body text = "200040" bgcolor = "EDFCFA" vlink = "4000ff">
+<h1 align = "center"><font size = "5">Поиск</h1>
+<p align = "center"><font size = "5">Здесь можно поискать, насколько связаны два явления: например, выбор определенного ударения и возраст.</p>
+<p align = "center"><font size = "5">В качестве результата будет показано, сколько раз отмеченные вами единицы встречались в рамках одного сабмита.</p>
+
+<form name="form1" action="http://localhost:5000/results" >
+	<p><b>Словоформа:</b></p>
+    <input type="radio" name="жИза" value="answered">жИза<Br>
+    <input type="radio" name="жизА" value="answered">жизА<Br>
+    <input type="radio" name="гУглить" value="answered">гУглить<Br>
+    <input type="radio" name="гуглИть" value="answered">гуглИть<Br>
+    <p><b>Фактор влияния:</b></p>
+    <input type="radio" name="пол_ж" value="answered">пол - женский<Br>
+	<input type="radio" name="пол_м" value="answered">пол - мужской<Br>
+	<p><b>Количество лет:</b> <input type="text" name="возраст" value=""></p>
+	<p><b>Где родился:</b> <input type="text" name="родился" value=""></p>
+    <p><b>Где жил:</b> <input type="text" name="жил" value=""></p>
+    <input type="radio" name="школьник" value="answered">школьник<Br>
+	<input type="radio" name="9_классов" value="answered">закончил 9 классов<Br>
+    <input type="radio" name="11_классов" value="answered">закончил 11 классов<Br>
+    <input type="radio" name="студент" value="answered">студент<Br>
+    <input type="radio" name="высшее" value="answered">законченное высшее<Br>
+    <p><input type="submit" value="Отправить"></p>
+
+ </form>
+</body>
+</html>

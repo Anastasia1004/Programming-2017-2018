@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лингвистический опрос</title>
+</head>
+<body  text = "200040" bgcolor = "EDFCFA" vlink = "4000ff">
+<font face = "Coolsville">
+<h1 align = "center"><font size = "5">Жиза! А ты гуглил?</h1>
+<p align = "center">Добрый день! Пройдите, пожалуйста, небольшой опрос. Вы окажете неоценимую помощь науке!</p>
+
+<form name="form1" action="form" >
+	<img src="{{url_for('static', filename='tom.jpg')}}"/>
+    <p><b>Как вы чаще говорите?</b></p>
+    <input type="radio" name="жИза" value="answered">жИза<Br>
+    <input type="radio" name="жизА" value="answered">жизА<Br>
+	<img src="{{url_for('static', filename='google.jpg')}}" />
+    <p><b>Как вы чаще говорите?</b></p>
+    <input type="radio" name="гУглить" value="answered">гУглить<Br>
+    <input type="radio" name="гуглИть" value="answered">гуглИть<Br>
+	<p><b>Расскажите немного о себе</b></p>
+	<p><b>Сколько вам лет?</b> <input type="text" name="возраст" value=""></p>
+    <p><b>Ваш пол:</b></p>
+    <input type="radio" name="пол_ж" value="answered">ж<Br>
+	<input type="radio" name="пол_м" value="answered">м<Br>
+    <p><b>Где вы родились?</b> <input type="text" name="родился" value=""></p>
+    <p><b>Где вы жили большую часть жизни?</b> <input type="text" name="жил" value=""></p>
+    <p><b>Ваш уровень образования:</b></p>
+    <input type="radio" name="школьник" value="answered">школьник<Br>
+	<input type="radio" name="9_классов" value="answered">закончил 9 классов<Br>
+    <input type="radio" name="11_классов" value="answered">закончил 11 классов<Br>
+    <input type="radio" name="студент" value="answered">студент<Br>
+    <input type="radio" name="высшее" value="answered">законченное высшее<Br>
+    <p><input type="submit" value="Отправить"></p>
+
+ </form>
+</body>
+</html>

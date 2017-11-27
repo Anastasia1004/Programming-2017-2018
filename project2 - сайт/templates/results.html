@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Результат поиска</title>
+</head>
+<body text = "200040" bgcolor = "EDFCFA" vlink = "4000ff">
+<h1 align = "center"><font size = "5">Общее количество сабмитов:</h1>
+<p align = "center"><font size = "5">{{lenans}}</p>
+<h2 align = "center"><font size = "5">Количество совпадений по вашему запросу:</h2>
+<p align = "center"><font size = "5">{{k}}</p>
+<h3 align = "center"><font size = "5">Полное описание найденных сабмитов:</h3>
+{%for i in arr%}
+	<p align = "center"><font size = "5">{{i}}</p>
+{% endfor %}
+</body>
+</html>
