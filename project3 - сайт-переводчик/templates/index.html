@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>До революции было лучше</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+</head>
+<body  text = "200040" bgcolor = "FAEBD7" vlink = "4000ff">
+<font face = "Coolsville">
+<div class="row">
+	<div class="col-lg-6 col-sm-8">
+		<h1><a>ФиКЛTranslate</a></h1>
+		<p>Переводчик текста на русском языке в дореволюционную орфографию</p>
+	</div>
+	<div class="col-lg-6 col-sm-4">
+		<img src="{{url_for('static', filename='64f32618f41975a73c3d9ac3bf427996.jpg')}}" alt = "КАРТИНКА" width = "200" height = "100">
+	</div>
+</div>
+<table width = "100%" height = "100%">
+  <tr>
+    <td></td>
+    <td align = "center">
+	<form name="form1" action="translate" >
+    <p><b>Введите слово или фразу (без знаков препинания)</b> <input type="text" name="input" value=""></p>
+    <p><input type="submit" value="Отправить"></p>
+	</form>
+	</td>
+  </tr>
+</table>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
